@@ -1,0 +1,39 @@
+{
+  "features": [
+    {
+      "name": "src_ip",
+      "type": "ip"
+    },
+    {
+      "name": "dst_ip",
+      "type": "ip"
+    },
+    {
+      "name": "src_port",
+      "type": "int"
+    },
+    {
+      "name": "dst_port",
+      "type": "int"
+    },
+    {
+      "name": "protocol",
+      "type": "categorical",
+      "categories": ["TCP", "UDP", "ICMP", "OTHER"]
+    },
+    {
+      "name": "length",
+      "type": "int"
+    },
+    {
+      "name": "tcp_flags",
+      "type": "categorical",
+      "categories": ["S", "A", "F", "P", "R", ""]
+    },
+    {
+      "name": "time_of_day",
+      "type": "float",
+      "description": "Seconds since midnight"
+    }
+  ]
+}
