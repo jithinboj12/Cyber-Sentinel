@@ -1,0 +1,2 @@
+# alerts.log
+# This file will receive JSON-like alert entries from the detection engine as they occur.
