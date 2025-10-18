@@ -1,0 +1,2 @@
+# blocklist.txt - one IP per line
+# Managed by CyberSentinel (demo)
